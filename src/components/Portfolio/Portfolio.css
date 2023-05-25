@@ -1,0 +1,142 @@
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 12%;
+  text-align: center;
+}
+
+.portfolio-intro {
+  color: #3178c6;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+
+.portfolio-description {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.portfolio-project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.portfolio-project-container2 {
+  margin-top: 3%;
+  flex-direction: row-reverse;
+}
+
+.portfolio-img {
+  max-width: 650px;
+  margin-right: 18px;
+  margin-left: 18px;
+  border-radius: 25px;
+}
+
+.portfolio-specs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18px;
+  text-align: center;
+}
+
+.specs-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.specs-intro {
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+  text-align: center;
+}
+
+.specs-description {
+  font-size: 18px;
+  color: #666666;
+  max-width: 360px;
+}
+
+.project-tech-stack {
+  display: flex;
+  justify-content: center;
+}
+
+.tech-stack-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.project-link-container {
+  display: flex;
+}
+
+.code-link-container,
+.demo-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.code-link-container img,
+.demo-link-container img {
+  max-width: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.code-link-container {
+  margin-right: 10px;
+}
+
+.demo-link-container {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolio-project-container,
+  .portfolio-project-container2 {
+    flex-direction: column;
+  }
+
+  .portfolio-specs {
+    padding: 20px;
+  }
+
+  .portfolio-img {
+    max-width: 500px;
+  }
+
+  .specs-description {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .specs-intro {
+    font-size: 18px;
+  }
+
+  .specs-description {
+    font-size: 16px;
+  }
+
+  .portfolio-img {
+    max-width: 350px;
+  }
+}

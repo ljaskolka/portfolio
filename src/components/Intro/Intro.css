@@ -1,0 +1,150 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14%;
+}
+
+.intro-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.front-end-text {
+  margin: 0;
+  padding: 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.intro-developer-container {
+  display: flex;
+  font-size: 4rem;
+  font-weight: 600;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.developer-text {
+  margin: 0;
+  padding: 0;
+  color: white;
+  -webkit-text-stroke: 2.5px black;
+}
+
+.wave-img {
+  max-width: 100px;
+}
+
+.intro-description-container {
+  max-width: 500px;
+}
+
+.description-text {
+  color: #666666;
+}
+
+.pin-img {
+  margin: 0 0 0 5px;
+  padding: 0;
+  max-width: 15px;
+  vertical-align: middle;
+}
+
+.intro-icons-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.intro-icons-container img {
+  max-width: 30px;
+}
+
+.github-icon {
+  margin-left: 10px;
+}
+
+.intro-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-stack-container {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-stack-text {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tech-stack-break {
+  margin: 0 12px;
+}
+
+.tech-stack-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  width: 650px;
+}
+
+.tech-stack-icon {
+  max-width: 35px;
+}
+
+@media screen and (max-width: 950px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .intro-img {
+    margin-bottom: 30px;
+  }
+
+  .tech-stack-container {
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro-img {
+    width: 250px;
+  }
+
+  .front-end-text {
+    font-size: 3.5rem;
+    margin-left: 5px;
+  }
+
+  .developer-text {
+    font-size: 3.5rem;
+    margin-left: 5px;
+  }
+
+  .description-text {
+    margin-left: 5px;
+  }
+
+  .linkedin-icon,
+  .github-icon {
+    margin-left: 5px;
+    width: 25px;
+  }
+
+  .tech-stack-icon {
+    max-width: 25px;
+  }
+}
